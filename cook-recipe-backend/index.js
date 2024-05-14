@@ -12,6 +12,6 @@ app.use(authenticateUserToken)
 app.use("/users", userRouter);
 app.use("/likes", likeRouter);
 app.listen(
-    5000,
+    process.env.PORT ,
     console.log('server running on port 5000')
 )
