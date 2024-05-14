@@ -1,0 +1,26 @@
+body{
+  background-color: #eae7e7;
+}
+
+/* Targets the scrollbar itself */
+::-webkit-scrollbar {
+  width: 7px; /* width of the entire scrollbar */
+  height: 10px; /* height of the horizontal scrollbar */
+}
+
+/* Targets the draggable part of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey; /* color of the scrollbar thumb */
+  border-radius: 10px; /* roundness of the scrollbar thumb */
+}
+
+/* Targets the track (part the thumb slides within) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+  border-radius: 10px; /* roundness of the track */
+}
+
+/* Targets the track's corners (optionally) */
+::-webkit-scrollbar-corner {
+  background: black;
+}
